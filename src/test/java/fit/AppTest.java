@@ -36,7 +36,7 @@ public class AppTest
         var actualExemptionValue = IrpfCalculator.calculateExemption();
 
         // assert
-        assertEquals(exemptionValueExpected, actualExemptionValue, 0.01);
+        assertEquals(exemptionValueExpected, actualExemptionValue, 0.01);//0.01 tolerancia
     }
 
     @Test
